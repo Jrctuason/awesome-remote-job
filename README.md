@@ -526,7 +526,7 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
 ## Tools
 
 #### HR
-  1. [Brighten](https://hellobrighten.com) – AI-powered employee recognition and onboarding for remote teams.
+  1. [Brighten](https://hellobrighten.com) – AI-powered peer recognition for remote teams — kudos, badges, and a rewards marketplace.
   1. [Remoteteam.com](https://gusto.com) – Automated payrolls, time off, HR tools, and compliance for remote companies.
 
 #### Communication
