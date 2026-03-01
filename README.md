@@ -19,6 +19,7 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
   - [Housing](#housing)
   - [Relocation Incentives](#relocation-incentives)
   - [Interviewing](#interviewing)
+- [AI Interview Coach](https://em-tools.io/interview-prep) - Voice-based AI behavioral interview practice for engineering managers and software engineers. 130+ role-specific questions, STAR-format scoring, and 3 interviewer personas.
   - [Events](#events)
   - [Newsletters](#newsletters)
   - [Podcasts](#podcasts)
