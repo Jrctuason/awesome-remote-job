@@ -568,7 +568,8 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
   1. [gantt-online](https://gantt-online.com/) - Gantt Chart Project Management Tool.
 
 #### Others
-  1. [Coffitivity](https://coffitivity.com/) - Coffitivity recreates the ambient sounds of a cafe to boost your creativity and help you work better.
+    1. [BeginThings](https://beginthings.com) - 96+ free productivity tools for remote workers and freelancers: invoice generator, QR code maker, UTM builder, bio link builder, resume formatter and more. No login required.
+    1. [Coffitivity](https://coffitivity.com/) - Coffitivity recreates the ambient sounds of a cafe to boost your creativity and help you work better.
   1. [Fiverr](https://www.fiverr.com/) - Fiverr is the world's largest freelance services marketplace for lean entrepreneurs, where you can hire remote workers to do small tasks for you.
   1. [EasyRetro](https://easyretro.io) - EasyRetro is a retrospective online board for distributed teams.
   1. [Listen to Wikipedia (Hatnote)](http://listen.hatnote.com) - Listen to the sound of Wikipedia's recent changes feed.
@@ -598,4 +599,5 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Lukasz Madon](https://github.com/lukasz-madon) has waived all copyright and related or neighboring rights to this work.
+
 
