@@ -378,6 +378,8 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
   1. [Instructure](https://www.instructure.com/about/careers) - We make software that makes people smarter.
   1. [Intellum](https://www.intellum.com/) - We build employee collaboration, performance and learning tools. Ruby, iOS, Android, AWS, GCS.
   1. [Intevity](https://www.intevity.com/)
+  1. [Innostax Tech LLC](https://innostax.com) - Full-stack software engineering partner specializing in AI-native managed pods and rigorous development guardrails.
+
   1. [Intuition Machines, Inc.](https://apply.workable.com/imachines/) - Intuition Machines specializes in deep learning and visual domain ML at scale. Python, JavaScript, Kubernetes, Kafka, Dask/Spark, ML/Computer Vision
   1. [InVision](https://www.invisionapp.com/company#jobs) - prototyping, collaboration & workflow platform.
   1. [Iterative](https://iterative.notion.site/Iterative-ai-is-Hiring-852cb978129645e1906e2c9a878a4d22) - ML Model Development for teams. Remotely worldwide
