@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Incident Response Tool</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <div class="logo">IRT</div>
+      <div>
+        <h1>Incident Response Tool</h1>
+        <p class="subtitle">Identify &bull; Triage &bull; Remediate</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <button class="btn btn-outline" id="scanBtn">Scan Sources</button>
+      <button class="btn btn-primary" id="newIncidentBtn">+ New Incident</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sidebar: incident list -->
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <h2>Incidents</h2>
+        <div class="severity-legend">
+          <span class="badge critical">critical</span>
+          <span class="badge high">high</span>
+          <span class="badge medium">medium</span>
+          <span class="badge low">low</span>
+        </div>
+      </div>
+      <div id="incidentList" class="incident-list">
+        <div class="empty-state">No incidents yet.<br/>Create one or scan your data sources.</div>
+      </div>
+    </aside>
+
+    <!-- Main detail panel -->
+    <section id="detailPanel" class="detail-panel">
+      <div class="welcome-screen" id="welcomeScreen">
+        <div class="welcome-icon">🚨</div>
+        <h2>Incident Response Tool</h2>
+        <p>Connect any data source — GitHub, AWS, PagerDuty, or any HTTP API.<br/>
+        Claude AI will identify, triage, and guide you through remediation.</p>
+        <div class="welcome-actions">
+          <button class="btn btn-primary" id="welcomeNewBtn">Create Incident</button>
+          <button class="btn btn-outline" id="welcomeScanBtn">Scan Data Sources</button>
+        </div>
+        <div class="source-status" id="sourceStatus"></div>
+      </div>
+
+      <div class="incident-detail" id="incidentDetail" style="display:none;">
+        <div class="detail-header">
+          <div class="detail-title-row">
+            <span class="badge" id="detailSeverityBadge"></span>
+            <h2 id="detailTitle"></h2>
+          </div>
+          <div class="detail-meta">
+            <span id="detailStatus" class="status-chip"></span>
+            <span id="detailCreated" class="meta-text"></span>
+            <span id="detailSource" class="meta-text"></span>
+          </div>
+          <div class="detail-actions">
+            <button class="btn btn-ai" id="analyzeBtn">AI Analyze</button>
+            <select id="statusSelect" class="status-select">
+              <option value="detected">Detected</option>
+              <option value="triaged">Triaged</option>
+              <option value="mitigating">Mitigating</option>
+              <option value="resolved">Resolved</option>
+              <option value="post-mortem">Post-Mortem</option>
+            </select>
+            <button class="btn btn-danger-sm" id="deleteBtn">Delete</button>
+          </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">Overview</button>
+          <button class="tab" data-tab="remediation">Remediation Steps</button>
+          <button class="tab" data-tab="timeline">Timeline</button>
+          <button class="tab" data-tab="events">Events</button>
+          <button class="tab" data-tab="ai-chat">AI Chat</button>
+        </div>
+
+        <!-- Overview tab -->
+        <div class="tab-content active" id="tab-overview">
+          <div class="description-block">
+            <h3>Description</h3>
+            <p id="detailDescription"></p>
+          </div>
+          <div id="aiAnalysisBlock" style="display:none;">
+            <div class="analysis-card">
+              <div class="analysis-header">
+                <span class="ai-badge">Claude AI Analysis</span>
+                <span id="analysisTime" class="meta-text"></span>
+              </div>
+              <div class="analysis-section">
+                <h4>Summary</h4>
+                <p id="analysisSummary"></p>
+              </div>
+              <div class="analysis-section">
+                <h4>Root Cause</h4>
+                <p id="analysisRootCause"></p>
+              </div>
+              <div class="analysis-section">
+                <h4>Impact Assessment</h4>
+                <p id="analysisImpact"></p>
+              </div>
+              <div id="similarIncidentsBlock" style="display:none;">
+                <h4>Similar Patterns</h4>
+                <ul id="similarIncidentsList"></ul>
+              </div>
+            </div>
+          </div>
+          <div id="noAnalysisBlock" class="no-analysis">
+            <p>No AI analysis yet.</p>
+            <button class="btn btn-ai" onclick="triggerAnalysis()">Run AI Analysis</button>
+          </div>
+        </div>
+
+        <!-- Remediation tab -->
+        <div class="tab-content" id="tab-remediation">
+          <div id="remediationSteps" class="remediation-list"></div>
+          <div id="noRemediation" class="no-analysis">
+            <p>No remediation steps yet. Run AI Analysis to generate them.</p>
+            <button class="btn btn-ai" onclick="triggerAnalysis()">Run AI Analysis</button>
+          </div>
+        </div>
+
+        <!-- Timeline tab -->
+        <div class="tab-content" id="tab-timeline">
+          <div id="timelineList" class="timeline-list"></div>
+          <div class="timeline-input">
+            <input type="text" id="timelineInput" placeholder="Add a note to the timeline..." />
+            <button class="btn btn-primary" id="addTimelineBtn">Add</button>
+          </div>
+        </div>
+
+        <!-- Events tab -->
+        <div class="tab-content" id="tab-events">
+          <div id="eventsList" class="events-list"></div>
+          <div class="event-input">
+            <h4>Ingest Manual Event</h4>
+            <input type="text" id="eventTitle" placeholder="Event title" />
+            <input type="text" id="eventDescription" placeholder="Event description" />
+            <button class="btn btn-primary" id="addEventBtn">Add Event</button>
+          </div>
+        </div>
+
+        <!-- AI Chat tab -->
+        <div class="tab-content" id="tab-ai-chat">
+          <div id="chatMessages" class="chat-messages"></div>
+          <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Ask Claude about this incident..." />
+            <button class="btn btn-ai" id="sendChatBtn">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- New Incident Modal -->
+  <div id="newIncidentModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>New Incident</h3>
+        <button class="modal-close" id="closeModal">&times;</button>
+      </div>
+      <form id="newIncidentForm">
+        <label>Title *
+          <input type="text" id="incidentTitle" placeholder="e.g. Production DB connection spike" required />
+        </label>
+        <label>Description *
+          <textarea id="incidentDesc" placeholder="What is happening? What are the symptoms?" required></textarea>
+        </label>
+        <label>Severity
+          <select id="incidentSeverity">
+            <option value="critical">Critical — complete outage</option>
+            <option value="high">High — major degradation</option>
+            <option value="medium" selected>Medium — partial impact</option>
+            <option value="low">Low — minor issue</option>
+          </select>
+        </label>
+        <label>Affected Services (comma-separated)
+          <input type="text" id="incidentServices" placeholder="e.g. api, auth, database" />
+        </label>
+        <label>Tags (comma-separated)
+          <input type="text" id="incidentTags" placeholder="e.g. security, performance, database" />
+        </label>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-outline" id="cancelModal">Cancel</button>
+          <button type="submit" class="btn btn-primary">Create Incident</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scan Results Modal -->
+  <div id="scanModal" class="modal" style="display:none;">
+    <div class="modal-content modal-wide">
+      <div class="modal-header">
+        <h3>Data Source Scan Results</h3>
+        <button class="modal-close" id="closeScanModal">&times;</button>
+      </div>
+      <div id="scanResults"></div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" id="closeScanBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" style="display:none;"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
