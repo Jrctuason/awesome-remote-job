@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
-import { IConnector, ConnectorFetchResult, IncidentEvent } from '../types/index.js';
+import { IConnector, ConnectorFetchResult, IncidentEvent } from '../types/index';
 
 /**
  * Generic HTTP connector — polls any REST endpoint for health / alert data.

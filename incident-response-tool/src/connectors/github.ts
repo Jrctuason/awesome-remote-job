@@ -1,6 +1,6 @@
 import { Octokit } from '@octokit/rest';
 import { v4 as uuidv4 } from 'uuid';
-import { IConnector, ConnectorFetchResult, IncidentEvent } from '../types/index.js';
+import { IConnector, ConnectorFetchResult, IncidentEvent } from '../types/index';
 
 export class GitHubConnector implements IConnector {
   type = 'github' as const;

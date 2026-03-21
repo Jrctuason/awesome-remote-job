@@ -2,18 +2,16 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import incidentRoutes from './api/incidents.js';
-import sourceRoutes from './api/sources.js';
+import incidentRoutes from './api/incidents';
+import sourceRoutes from './api/sources';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 const PORT = process.env.PORT ?? 3000;
 
 app.use(cors());
 app.use(express.json());
 
-// Static dashboard
+// Static dashboard — __dirname is the compiled dist/ folder, public is at project root
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 // API routes
@@ -36,12 +34,12 @@ app.get('*', (_req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`\n🚨 Incident Response Tool running at http://localhost:${PORT}`);
-  console.log(`   AI: ${process.env.ANTHROPIC_API_KEY ? '✅ Claude configured' : '❌ ANTHROPIC_API_KEY missing'}`);
-  console.log(`   GitHub: ${process.env.GITHUB_TOKEN ? '✅' : '⚠️  not configured'}`);
-  console.log(`   PagerDuty: ${process.env.PAGERDUTY_API_KEY ? '✅' : '⚠️  not configured'}`);
-  console.log(`   AWS: ${process.env.AWS_ACCESS_KEY_ID ? '✅' : '⚠️  not configured'}`);
-  console.log(`   HTTP: ${process.env.WEBHOOK_SOURCES ? '✅' : '⚠️  not configured'}\n`);
+  console.log(`\nIncident Response Tool running at http://localhost:${PORT}`);
+  console.log(`   AI: ${process.env.ANTHROPIC_API_KEY ? '[OK] Claude configured' : '[!!] ANTHROPIC_API_KEY missing'}`);
+  console.log(`   GitHub: ${process.env.GITHUB_TOKEN ? '[OK]' : '[ ] not configured'}`);
+  console.log(`   PagerDuty: ${process.env.PAGERDUTY_API_KEY ? '[OK]' : '[ ] not configured'}`);
+  console.log(`   AWS: ${process.env.AWS_ACCESS_KEY_ID ? '[OK]' : '[ ] not configured'}`);
+  console.log(`   HTTP: ${process.env.WEBHOOK_SOURCES ? '[OK]' : '[ ] not configured'}\n`);
 });
 
 export default app;

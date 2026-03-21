@@ -10,9 +10,9 @@ import {
   addTimelineEntry,
   addEventToIncident,
   deleteIncident,
-} from '../engine/incident.js';
-import { analyzeIncident, chatWithAI } from '../ai/claude.js';
-import { IncidentEvent } from '../types/index.js';
+} from '../engine/incident';
+import { analyzeIncident, chatWithAI } from '../ai/claude';
+import { IncidentEvent } from '../types/index';
 
 const router = Router();
 

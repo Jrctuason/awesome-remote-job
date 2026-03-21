@@ -8,7 +8,7 @@ import {
   RemediationStep,
   AIAnalysis,
   DataSourceType,
-} from '../types/index.js';
+} from '../types/index';
 
 // In-memory store (swap for a database in production)
 const incidents = new Map<string, Incident>();

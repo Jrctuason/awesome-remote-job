@@ -1,5 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { Incident, AIAnalysis, RemediationStep, IncidentSeverity } from '../types/index.js';
+import { Incident, AIAnalysis, RemediationStep, IncidentSeverity } from '../types/index';
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
-import { IConnector, ConnectorFetchResult, IncidentEvent } from '../types/index.js';
+import { IConnector, ConnectorFetchResult, IncidentEvent } from '../types/index';
 
 // Uses AWS CloudWatch Alarms via the REST API (no SDK needed — works with fetch + SigV4)
 // For full SDK support, add @aws-sdk/client-cloudwatch to dependencies.

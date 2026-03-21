@@ -1,9 +1,9 @@
 import { Router, Request, Response } from 'express';
-import { GitHubConnector } from '../connectors/github.js';
-import { PagerDutyConnector } from '../connectors/pagerduty.js';
-import { AWSConnector } from '../connectors/aws.js';
-import { HTTPConnector } from '../connectors/http.js';
-import { IConnector } from '../types/index.js';
+import { GitHubConnector } from '../connectors/github';
+import { PagerDutyConnector } from '../connectors/pagerduty';
+import { AWSConnector } from '../connectors/aws';
+import { HTTPConnector } from '../connectors/http';
+import { IConnector } from '../types/index';
 
 const router = Router();
 
