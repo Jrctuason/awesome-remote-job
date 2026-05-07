@@ -2,7 +2,7 @@
 
 A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecommuting) resources.
 
-*To contribute, click README.md and then the pencil icon. Make your changes and click the "Propose file change" button to submit a pull request. Make sure to follow [the contributions guidelines](CONTRIBUTING.md).*
+*To contribute, click README.md and then the pencil icon. Make your changes and click the "Propose file change" button to submit a pull request. Make sure to follow [the contributions guidelines](CONTRIBUTING.md).
 
 ## Table of Contents
 
@@ -592,6 +592,7 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
 
 ## Law & Finance
   1. [1099 contractors](https://www.smartcapitalmind.com/what-is-a-1099-contractor.htm) – US based companies can hire remote workers as.
+  1. [Your Tax Base](https://yourtaxbase.com/) - Florida residency and tax domicile services for digital nomads and remote workers, with virtual mailbox, Declaration of Domicile filing, and step-by-step guidance for establishing a tax-free home base.
   1. [Transferwise](https://wise.com/gb/business/payouts) - Easy way to pay remote employees.
 
 ## Others
