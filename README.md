@@ -492,6 +492,7 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
   1. [Tortuga Backpacks](https://www.tortugabackpacks.com/pages/careers) - Backpacks for city travel.
   1. [Transloadit](https://transloadit.com/jobs/) - The world's most versatile file uploading & encoding service, since 2009, by devs for devs
   1. [Trello](https://trello.com/jobs)
+  1. [Tribe](https://www.tribexyz.com/careers) - Embedded recruiting for European tech companies. Fully remote team of 100+ across Europe.
   1. [TRM labs](https://www.trmlabs.com/careers)
   1. [Truelogic](https://www.truelogic.io/careers) - Outsourcing company focused on Latin America talent for US companies
   1. [Tyk](https://tyk.io/current-vacancies/) - API Gateway and API Management. Built with Go, open source.
