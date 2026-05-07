@@ -242,6 +242,7 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
   1. [Vermont Remote Worker Grant Program](https://thinkvermont.com/relocate/) - Receive up to a max of $5,000 per year to work from Vermont. Cannot exceed $10,000 for life of the program per individual.
   1. [Remote Shoals](https://remoteshoals.com/) - Work remotely? Get $10,000 to do your job from the Shoals.
   1. [Visto](https://visto.ai/) - We relocate developers to canada and help companies to bring developers outside the world!
+  1. [Where Do I Move To](https://wheredoimoveto.com) - Get personalized city and country relocation recommendations based on 50+ factors.
 
 ## Interviewing
   1. [andreis/interview](https://github.com/Olshansk/interview) - Everything you need to kick ass on your coding interview
