@@ -142,6 +142,7 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
   1. [Real Work From Anywhere](https://www.realworkfromanywhere.com/) - A site for fully location independent jobs. All jobs on the site are 100% work from anywhere.
   1. [4 Day Week](https://4dayweek.io) - Software jobs with a better work / life balance.
   1. [4DayJob](https://4dayjob.com/) - 4-day work week and remote jobs. 1,500+ flexible positions.
+  1. [AI Dev Jobs](https://aidevboard.com) - AI/ML developer jobs with REST API and MCP server for agent-powered job search. 7,400+ positions from 417 companies.
   1. [Authentic Jobs](https://authenticjobs.com/?search_location=remote)
   1. [Built In](https://builtin.com/jobs/remote)
   1. [Trabajo Remoto Chile](https://trabajoremotochile.com/) - Remote job board for Chilean professionals seeking work with US and European companies.
