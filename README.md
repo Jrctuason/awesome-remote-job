@@ -29,6 +29,7 @@ A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecom
   - [Tools](#tools)
       - [HR](#hr)
       - [Communication](#communication)
+  * [Nubo Email](https://nubo.email) - Privacy-first email and collaboration platform. Email, calendar, drive, video meetings, team chat. Organization-based pricing.
       - [Project Management](#project-management)
       - [Others](#others)
   - [Law \& Finance](#law--finance)
