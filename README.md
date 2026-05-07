@@ -2,13 +2,21 @@
 
 A curated list of awesome [remote working](https://en.wikipedia.org/wiki/Telecommuting) resources.
 
-*To contribute, click README.md and then the pencil icon. Make your changes and click the "Propose file change" button to submit a pull request. Make sure to follow [the contributions guidelines](CONTRIBUTING.md).
+## Languages
+
+- [English (default)](README.md)
+- [Español](README.es.md)
+- [Français](README.fr.md)
+- [简体中文](README.zh.md)
+
+*To contribute, click README.md and then the pencil icon. Make your changes and click the "Propose file change" button to submit a pull request. Make sure to follow [the contributions guidelines](CONTRIBUTING.md).*
 
 ## Table of Contents
 
 <!-- MarkdownTOC depth=4 -->
 
 - [Awesome Remote Job  ](#awesome-remote-job--)
+  - [Languages](#languages)
   - [Table of Contents](#table-of-contents)
   - [Articles \& Posts](#articles--posts)
   - [Videos](#videos)
