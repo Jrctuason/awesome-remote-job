@@ -96,7 +96,6 @@
   1. [The Ultimate Remote Team Culture](https://www.toptal.com/remote-work-playbook)
   1. [The Villains of Remote Work](https://blog.dnsimple.com/2016/10/the-villains-of-remote-work/)
   1. [Things To Watch Out For While Working Remotely](https://www.toptal.com/remote/remote-work-burnout-a-cautionary-tale)
-  1. [Tips to Land a Remote Job](https://moduscreate.com/blog/tips-to-land-a-remote-job/)
   1. [To Raise Productivity, Let More Employees Work from Home](https://hbr.org/2014/01/to-raise-productivity-let-more-employees-work-from-home)
   1. [What is a Distributed Company?](https://www.lullabot.com/articles/what-is-a-distributed-company)
   1. [Who Needs an Office? How to Go 100 Percent Remote.](https://www.entrepreneur.com/growing-a-business/who-needs-an-office-how-to-go-100-percent-remote/242708)
@@ -106,7 +105,6 @@
   1. [Why Small Businesses Are Building Remote Workforces](https://www.businessinsider.com/why-small-businesses-are-building-remote-workforces-2013-10)
   1. [Why We (Still) Believe in Working Remotely](https://stackoverflow.blog/2013/02/01/why-we-still-believe-in-working-remotely/)
   1. [Working Remotely: A Complete Guide to Turn You Into a Pro](https://www.paymoapp.com/blog/working-remotely/)
-  1. [Working Remotely for Extroverts](https://stephyiu.com/2014/12/13/working-remotely-for-extroverts/)
   1. [Yahoo, Best Buy, and Telecommuting: Advice From A Distributed Company](https://www.lullabot.com/articles/yahoo-best-buy-and-telecommuting-advice-from-a-distributed-company)
   1. [Your Commute Is Killing You](https://slate.com/business/2011/05/long-commutes-cause-obesity-neck-pain-loneliness-divorce-stress-and-insomnia.html)
   1. [Why remote work makes disagreement hard](https://zapier.com/blog/how-to-disagree-remote-work/)
@@ -224,7 +222,6 @@
   1. [HubBOG](https://www.hubbog.com/) - 共享办公空间 + 创业加速器。哥伦比亚波哥大
   1. [Mokrin House](https://mokrinhouse.com/) - 塞尔维亚乡村地区的共居与共享办公空间
   1. [Nest Copenhagen](https://www.nestcopenhagen.dk/) - 丹麦哥本哈根的共居空间
-  1. [NoHatDigital](https://www.nohatdigital.com/mansionpage/) - 墨西哥的共居空间
   1. [Nomad House](https://nomadhouse.io) - 全球游牧者住房网络
   1. [Sende](https://www.sende.co/) - 西班牙北部的共居与共享办公空间
   1. [Sun Desk](https://sun-desk.com/) - 摩洛哥塔加佐特的共居与共享办公空间
@@ -449,8 +446,6 @@
   1. [Prodperfect](https://prodperfect.com/) - 基于真实用户数据的自动化 QA 测试。远程优先组织，在波士顿和旧金山设有工作场所。
   1. [ProFinda](https://www.profinda.com/) - 劳动力规划与优化。100% 远程开发团队。Ruby on Rails、React.js 和 Python。公司位于英国。
   1. [Prosopo](https://prosopo.io/) - 机器人防护与 Web 安全公司。总部在英国的全远程团队。Typescript、Rust、开源。  
-  1. [RainforestQA](https://jobs.lever.co/rainforest) - 按需 QA 即服务。
-  1. [RebelMouse](https://www.rebelmouse.com/st/blog) - 社交出版平台。Python、JS 和 iOS/Android 开发者。团队遍布全球。
   1. [Recurly](https://recurly.com/careers/) - 面向订阅型企业的循环计费管理
   1. [Red Hat](https://www.redhat.com/en/jobs)
   1. [Redox](https://redoxengine.com/company/careers/) - 医疗保健 API 平台。值得自豪的远程优先团队。
@@ -467,7 +462,6 @@
   1. [Shiphero](https://shiphero.breezy.hr/?&remote=remote#positions) - ShipHero 构建功能完整的仓库管理系统。100% 远程。 
   1. [Shogun](https://getshogun.com/) - 构建并优化电商落地页。Ruby / Rails、Go、JavaScript、React。100% 远程。
   1. [Signal](https://signal.org/workworkwork/) - 就是打造出色 Signal 应用的那群人。仅限美国。
-  1. [Skyscrapers](https://skyscrapers.eu/join-us/) - 云托管服务与管理。与多个云提供商合作（AWS、Digital Ocean、Linode 等）。100% 远程。
   1. [SoftwareMill](https://softwaremill.com/join-us/)
   1. [Soshace](https://soshace.com/) - Angular/React/Vue.js/Java/Python 远程开发公司
   1. [Songspace](https://songspace.com) 帮助音乐创作者与专业团队协作、整理并分享作品
@@ -502,7 +496,6 @@
   1. [Truelogic](https://www.truelogic.io/careers) - 专注于为美国公司提供拉丁美洲人才的外包公司
   1. [Tyk](https://tyk.io/current-vacancies/) - API 网关和 API 管理。使用 Go 构建，开源。
   1. [Vidalingua](https://www.vidalingua.com/amaze.php) - 让语言应用焕发生机。
-  1. [WAAT](https://waat.eu/job/) - 根据项目需求灵活适配的跨职能数字代理公司。
   1. [Water Lily Pond](https://waterlilypond.co.uk/) - 广告与营销传播服务。
   1. [wemake.services](https://wemake.services/meta/) - 我们销售可重复的软件开发流程。完全远程。Python、JavaScript、Vue
   1. [Wheel](https://www.wheel.com/careers) - 医疗健康初创公司。

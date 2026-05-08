@@ -88,7 +88,6 @@ Una lista curada de excelentes recursos sobre [trabajo remoto](https://en.wikipe
   1. [The Ultimate Remote Team Culture](https://www.toptal.com/remote-work-playbook)
   1. [The Villains of Remote Work](https://blog.dnsimple.com/2016/10/the-villains-of-remote-work/)
   1. [Things To Watch Out For While Working Remotely](https://www.toptal.com/remote/remote-work-burnout-a-cautionary-tale)
-  1. [Tips to Land a Remote Job](https://moduscreate.com/blog/tips-to-land-a-remote-job/)
   1. [To Raise Productivity, Let More Employees Work from Home](https://hbr.org/2014/01/to-raise-productivity-let-more-employees-work-from-home)
   1. [What is a Distributed Company?](https://www.lullabot.com/articles/what-is-a-distributed-company)
   1. [Who Needs an Office? How to Go 100 Percent Remote.](https://www.entrepreneur.com/growing-a-business/who-needs-an-office-how-to-go-100-percent-remote/242708)
@@ -98,7 +97,6 @@ Una lista curada de excelentes recursos sobre [trabajo remoto](https://en.wikipe
   1. [Why Small Businesses Are Building Remote Workforces](https://www.businessinsider.com/why-small-businesses-are-building-remote-workforces-2013-10)
   1. [Why We (Still) Believe in Working Remotely](https://stackoverflow.blog/2013/02/01/why-we-still-believe-in-working-remotely/)
   1. [Working Remotely: A Complete Guide to Turn You Into a Pro](https://www.paymoapp.com/blog/working-remotely/)
-  1. [Working Remotely for Extroverts](https://stephyiu.com/2014/12/13/working-remotely-for-extroverts/)
   1. [Yahoo, Best Buy, and Telecommuting: Advice From A Distributed Company](https://www.lullabot.com/articles/yahoo-best-buy-and-telecommuting-advice-from-a-distributed-company)
   1. [Your Commute Is Killing You](https://slate.com/business/2011/05/long-commutes-cause-obesity-neck-pain-loneliness-divorce-stress-and-insomnia.html)
   1. [Why remote work makes disagreement hard](https://zapier.com/blog/how-to-disagree-remote-work/)
@@ -216,7 +214,6 @@ Una lista curada de excelentes recursos sobre [trabajo remoto](https://en.wikipe
   1. [HubBOG](https://www.hubbog.com/) - Espacio de coworking + aceleradora de startups. Bogotá, Colombia
   1. [Mokrin House](https://mokrinhouse.com/) - Espacio de coliving y coworking en una zona rural de Serbia
   1. [Nest Copenhagen](https://www.nestcopenhagen.dk/) - Espacio de coliving en Copenhague, Dinamarca
-  1. [NoHatDigital](https://www.nohatdigital.com/mansionpage/) - Espacio de coliving en México
   1. [Nomad House](https://nomadhouse.io) - Red global de alojamiento para nómadas
   1. [Sende](https://www.sende.co/) - Espacio de coliving y coworking en el norte de España
   1. [Sun Desk](https://sun-desk.com/) - Espacio de coliving y coworking en Taghazout, Marruecos
@@ -441,8 +438,6 @@ Una lista curada de excelentes recursos sobre [trabajo remoto](https://en.wikipe
   1. [Prodperfect](https://prodperfect.com/) - Testing QA automatizado a partir de datos de usuarios reales. Organización remote-first con espacios de trabajo en Boston y San Francisco.
   1. [ProFinda](https://www.profinda.com/) - Planificación y optimización de la fuerza laboral. Equipo de desarrollo 100% remoto. Ruby on Rails, React.js y Python. Empresa con sede en Reino Unido.
   1. [Prosopo](https://prosopo.io/) - Empresa de protección contra bots y seguridad web. Equipo totalmente remoto con base en Reino Unido. Typescript, Rust, Open Source.  
-  1. [RainforestQA](https://jobs.lever.co/rainforest) - QA como servicio bajo demanda.
-  1. [RebelMouse](https://www.rebelmouse.com/st/blog) - Plataforma de publicación social. Desarrolladores Python, JS e iOS/Android. Equipo repartido por todo el mundo.
   1. [Recurly](https://recurly.com/careers/) - Gestión de facturación recurrente para negocios basados en suscripción
   1. [Red Hat](https://www.redhat.com/en/jobs)
   1. [Redox](https://redoxengine.com/company/careers/) - Plataforma de API para salud. Orgullosamente remote-first.
@@ -459,7 +454,6 @@ Una lista curada de excelentes recursos sobre [trabajo remoto](https://en.wikipe
   1. [Shiphero](https://shiphero.breezy.hr/?&remote=remote#positions) - ShipHero construye un sistema de gestión de almacenes completo. 100% remoto. 
   1. [Shogun](https://getshogun.com/) - Crea y optimiza landing pages de eCommerce. Ruby / Rails, Go, JavaScript, React. 100% remoto.
   1. [Signal](https://signal.org/workworkwork/) - Esta gente crea la fantástica app Signal. Solo EE. UU.
-  1. [Skyscrapers](https://skyscrapers.eu/join-us/) - Servicios y gestión de hosting cloud. Trabajan con múltiples proveedores cloud (AWS, Digital Ocean, Linode, ...). 100% remoto.
   1. [SoftwareMill](https://softwaremill.com/join-us/)
   1. [Soshace](https://soshace.com/) - Empresa de desarrollo remoto Angular/React/Vue.js/Java/Python
   1. [Songspace](https://songspace.com) Ayuda a creadores musicales a colaborar, catalogar y compartir trabajo con su equipo profesional
@@ -494,7 +488,6 @@ Una lista curada de excelentes recursos sobre [trabajo remoto](https://en.wikipe
   1. [Truelogic](https://www.truelogic.io/careers) - Empresa de outsourcing enfocada en talento latinoamericano para empresas de EE. UU.
   1. [Tyk](https://tyk.io/current-vacancies/) - API Gateway y gestión de APIs. Construido con Go, open source.
   1. [Vidalingua](https://www.vidalingua.com/amaze.php) - Dando vida a apps de idiomas.
-  1. [WAAT](https://waat.eu/job/) - Agencia digital cross-functional que se adapta a las necesidades del proyecto.
   1. [Water Lily Pond](https://waterlilypond.co.uk/) - Servicios de publicidad y comunicación de marketing.
   1. [wemake.services](https://wemake.services/meta/) - Vendemos un proceso de desarrollo de software repetible. Totalmente remoto. Python, JavaScript, Vue
   1. [Wheel](https://www.wheel.com/careers) - Startup del sector salud.
